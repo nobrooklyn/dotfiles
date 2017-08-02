@@ -1,0 +1,50 @@
+scriptencoding utf-8
+
+colorscheme wombat
+set background=dark
+
+set guifont=Ricty_Diminished:h12:cSHIFTJIS
+
+set lines=50
+set columns=120
+
+set number
+set ruler
+
+set hidden
+
+set showcmd
+set showmatch
+
+set cursorline
+set cursorcolumn
+
+gui
+set transparency=240
+
+set guioptions-=T
+set title
+set laststatus=2
+
+set visualbell t_vb=
+set mouse=a
+
+set nobackup
+set noundofile
+set fileencoding=utf-8
+set wildmenu wildmode=list:full
+
+set list listchars=tab:>-
+
+set tabstop=4
+set shiftwidth=4
+set noexpandtab
+
+set ignorecase
+set smartcase
+set incsearch
+set wrapscan
+set hlsearch
+
+nmap <Esc><Esc> :nohlsearch<CR><Esc>
+
